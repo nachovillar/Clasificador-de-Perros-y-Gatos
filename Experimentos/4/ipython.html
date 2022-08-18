@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Consolas'; font-size:10pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#00ff00;">In [</span><span style=" font-weight:600; color:#00ff00;">46</span><span style=" color:#00ff00;">]:</span> runfile('C:/Users/HP/Desktop/Proyecto DL/cnn_2.py', wdir='C:/Users/HP/Desktop/Proyecto DL')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Model: &quot;sequential_37&quot;</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Layer (type)                 Output Shape              Param #   </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">=================================================================</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">conv2d_215 (Conv2D)          (None, 126, 126, 32)      320       </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">max_pooling2d_205 (MaxPoolin (None, 63, 63, 32)        0         </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">conv2d_216 (Conv2D)          (None, 61, 61, 32)        9248      </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">max_pooling2d_206 (MaxPoolin (None, 30, 30, 32)        0         </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">conv2d_217 (Conv2D)          (None, 28, 28, 32)        9248      </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">max_pooling2d_207 (MaxPoolin (None, 14, 14, 32)        0         </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">conv2d_218 (Conv2D)          (None, 12, 12, 32)        9248      </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">max_pooling2d_208 (MaxPoolin (None, 6, 6, 32)          0         </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">conv2d_219 (Conv2D)          (None, 4, 4, 32)          9248      </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">max_pooling2d_209 (MaxPoolin (None, 2, 2, 32)          0         </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">flatten_26 (Flatten)         (None, 128)               0         </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">dense_109 (Dense)            (None, 512)               66048     </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">dropout_76 (Dropout)         (None, 512)               0         </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">dense_110 (Dense)            (None, 128)               65664     </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">dropout_77 (Dropout)         (None, 128)               0         </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">dense_111 (Dense)            (None, 1)                 129       </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">=================================================================</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Total params: 169,153</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Trainable params: 169,153</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Non-trainable params: 0</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_________________________________________________________________</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">None</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Found 8000 images belonging to 2 classes.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Found 2000 images belonging to 2 classes.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 1/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 76s 303ms/step - loss: 0.6904 - accuracy: 0.5332 - val_loss: 0.6711 - val_accuracy: 0.6058</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 2/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 72s 287ms/step - loss: 0.6542 - accuracy: 0.6168 - val_loss: 0.6071 - val_accuracy: 0.6900</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 3/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 72s 290ms/step - loss: 0.6253 - accuracy: 0.6656 - val_loss: 0.5835 - val_accuracy: 0.6905</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 4/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 69s 276ms/step - loss: 0.5876 - accuracy: 0.6935 - val_loss: 0.5483 - val_accuracy: 0.7334</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 5/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 270ms/step - loss: 0.5588 - accuracy: 0.7181 - val_loss: 0.5179 - val_accuracy: 0.7445</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 6/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 270ms/step - loss: 0.5342 - accuracy: 0.7351 - val_loss: 0.5003 - val_accuracy: 0.7560</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 7/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 70s 281ms/step - loss: 0.5040 - accuracy: 0.7581 - val_loss: 0.5119 - val_accuracy: 0.7535</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 8/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 273ms/step - loss: 0.4947 - accuracy: 0.7645 - val_loss: 0.4596 - val_accuracy: 0.7828</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 9/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.4745 - accuracy: 0.7786 - val_loss: 0.4586 - val_accuracy: 0.7843</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 10/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.4613 - accuracy: 0.7815 - val_loss: 0.4570 - val_accuracy: 0.7878</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 11/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 273ms/step - loss: 0.4455 - accuracy: 0.7952 - val_loss: 0.5384 - val_accuracy: 0.7434</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 12/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.4255 - accuracy: 0.8039 - val_loss: 0.4283 - val_accuracy: 0.8085</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 13/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.4197 - accuracy: 0.8041 - val_loss: 0.4019 - val_accuracy: 0.8261</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 14/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.4074 - accuracy: 0.8138 - val_loss: 0.4043 - val_accuracy: 0.8145</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 15/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.3931 - accuracy: 0.8214 - val_loss: 0.3899 - val_accuracy: 0.8357</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 16/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.3802 - accuracy: 0.8310 - val_loss: 0.3993 - val_accuracy: 0.8241</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 17/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.3764 - accuracy: 0.8330 - val_loss: 0.3685 - val_accuracy: 0.8387</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 18/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 70s 281ms/step - loss: 0.3567 - accuracy: 0.8405 - val_loss: 0.3461 - val_accuracy: 0.8448</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 19/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.3478 - accuracy: 0.8499 - val_loss: 0.3728 - val_accuracy: 0.8281</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 20/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.3427 - accuracy: 0.8468 - val_loss: 0.3659 - val_accuracy: 0.8402</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 21/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.3367 - accuracy: 0.8491 - val_loss: 0.3583 - val_accuracy: 0.8453</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 22/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 70s 280ms/step - loss: 0.3324 - accuracy: 0.8476 - val_loss: 0.4111 - val_accuracy: 0.7913</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 23/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.3280 - accuracy: 0.8569 - val_loss: 0.3492 - val_accuracy: 0.8387</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 24/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 273ms/step - loss: 0.3196 - accuracy: 0.8636 - val_loss: 0.3537 - val_accuracy: 0.8483</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 25/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.3096 - accuracy: 0.8649 - val_loss: 0.3401 - val_accuracy: 0.8538</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 26/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 273ms/step - loss: 0.3037 - accuracy: 0.8665 - val_loss: 0.3325 - val_accuracy: 0.8523</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 27/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 74s 296ms/step - loss: 0.3038 - accuracy: 0.8636 - val_loss: 0.4228 - val_accuracy: 0.8175</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 28/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 70s 280ms/step - loss: 0.3065 - accuracy: 0.8694 - val_loss: 0.3533 - val_accuracy: 0.8528</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 29/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 70s 280ms/step - loss: 0.2923 - accuracy: 0.8754 - val_loss: 0.3288 - val_accuracy: 0.8604</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 30/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 71s 285ms/step - loss: 0.2764 - accuracy: 0.8827 - val_loss: 0.3238 - val_accuracy: 0.8695</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 31/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.2834 - accuracy: 0.8817 - val_loss: 0.3092 - val_accuracy: 0.8705</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 32/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 67s 270ms/step - loss: 0.2668 - accuracy: 0.8849 - val_loss: 0.4134 - val_accuracy: 0.8473</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 33/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 274ms/step - loss: 0.2762 - accuracy: 0.8796 - val_loss: 0.3465 - val_accuracy: 0.8533</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 34/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.2654 - accuracy: 0.8878 - val_loss: 0.3285 - val_accuracy: 0.8619</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 35/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 270ms/step - loss: 0.2626 - accuracy: 0.8915 - val_loss: 0.3315 - val_accuracy: 0.8543</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 36/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 270ms/step - loss: 0.2515 - accuracy: 0.8938 - val_loss: 0.3178 - val_accuracy: 0.8710</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 37/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.2576 - accuracy: 0.8859 - val_loss: 0.3535 - val_accuracy: 0.8614</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 38/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.2551 - accuracy: 0.8916 - val_loss: 0.3001 - val_accuracy: 0.8690</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 39/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 70s 279ms/step - loss: 0.2512 - accuracy: 0.8957 - val_loss: 0.3007 - val_accuracy: 0.8695</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 40/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 270ms/step - loss: 0.2533 - accuracy: 0.8901 - val_loss: 0.3168 - val_accuracy: 0.8805</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 41/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 67s 270ms/step - loss: 0.2382 - accuracy: 0.8966 - val_loss: 0.3244 - val_accuracy: 0.8649</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 42/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.2424 - accuracy: 0.8951 - val_loss: 0.3020 - val_accuracy: 0.8785</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 43/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 273ms/step - loss: 0.2382 - accuracy: 0.8982 - val_loss: 0.3195 - val_accuracy: 0.8674</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 44/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.2363 - accuracy: 0.8959 - val_loss: 0.3389 - val_accuracy: 0.8740</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 45/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.2300 - accuracy: 0.9011 - val_loss: 0.3278 - val_accuracy: 0.8750</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 46/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 70s 281ms/step - loss: 0.2327 - accuracy: 0.9003 - val_loss: 0.3002 - val_accuracy: 0.8800</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 47/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 272ms/step - loss: 0.2301 - accuracy: 0.9064 - val_loss: 0.3099 - val_accuracy: 0.8760</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 48/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 270ms/step - loss: 0.2293 - accuracy: 0.9071 - val_loss: 0.3327 - val_accuracy: 0.8740</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 49/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.2280 - accuracy: 0.9013 - val_loss: 0.3110 - val_accuracy: 0.8831</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Epoch 50/50</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">250/250 [==============================] - 68s 271ms/step - loss: 0.2169 - accuracy: 0.9081 - val_loss: 0.3323 - val_accuracy: 0.8790</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">[0.5332499742507935, 0.6167500019073486, 0.6656249761581421, 0.6934999823570251, 0.7181249856948853, 0.7351250052452087, 0.7581250071525574, 0.7645000219345093, 0.7786250114440918, 0.781499981880188, 0.7952499985694885, 0.8038750290870667, 0.8041250109672546, 0.8137500286102295, 0.8213750123977661, 0.8309999704360962, 0.8330000042915344, 0.840499997138977, 0.8498749732971191, 0.846750020980835, 0.8491250276565552, 0.8476250171661377, 0.8568750023841858, 0.8636249899864197, 0.8648750185966492, 0.8665000200271606, 0.8636249899864197, 0.8693749904632568, 0.875374972820282, 0.8827499747276306, 0.8817499876022339, 0.8848749995231628, 0.8796250224113464, 0.8877500295639038, 0.8914999961853027, 0.893750011920929, 0.8858749866485596, 0.8916249871253967, 0.8957499861717224, 0.8901249766349792, 0.8966249823570251, 0.8951249718666077, 0.8982499837875366, 0.8958749771118164, 0.9011250138282776, 0.9002500176429749, 0.906374990940094, 0.9071249961853027, 0.9012500047683716, 0.9081249833106995]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#00ff00;">In [</span><span style=" font-weight:600; color:#00ff00;">47</span><span style=" color:#00ff00;">]:</span> </p></body></html>
